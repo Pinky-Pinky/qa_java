@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.LionParameterizedTest" time="0.011" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AnimalTest" time="0.074" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -59,6 +59,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testDoesHaveMane[0]" classname="com.example.LionParameterizedTest" time="0.005"/>
-  <testcase name="testDoesHaveMane[1]" classname="com.example.LionParameterizedTest" time="0"/>
+  <testcase name="shouldThrowExceptionOnUnknownAnimalKind" classname="com.example.AnimalTest" time="0.034"/>
+  <testcase name="shouldReturnHerbivoreFood" classname="com.example.AnimalTest" time="0"/>
+  <testcase name="shouldReturnPredatorFood" classname="com.example.AnimalTest" time="0.001"/>
+  <testcase name="shouldReturnFamilyDescription" classname="com.example.AnimalTest" time="0.001"/>
 </testsuite>
